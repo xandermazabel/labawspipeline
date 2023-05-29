@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_labawspipeline_1685376873125-pr-trigger-input-set
+  identifier: Build_labawspipeline_1685376873125prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_labawspipeline_1685376873125
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
